@@ -27,11 +27,11 @@ erDiagram
 
 ### API Endpoints
 ```mermaid
-graph LR
-    A[Client] -->|GET /tasks| B[List Tasks]
-    A -->|POST /tasks| C[Create Task]
-    A -->|PUT /tasks/{id}| D[Update Task]
-    A -->|DELETE /tasks/{id}| E[Delete Task]
+flowchart TD
+    Client[Client] -->|GET /tasks| ListTasks[List Tasks]
+    Client -->|POST /tasks| CreateTask[Create Task]
+    Client -->|PUT /tasks/{id}| UpdateTask[Update Task]
+    Client -->|DELETE /tasks/{id}| DeleteTask[Delete Task]
 ```
 
 ## Features
