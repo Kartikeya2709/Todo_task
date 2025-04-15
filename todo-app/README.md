@@ -66,7 +66,7 @@ graph TD
 
 ## Technical Stack
 
-- **Backend**: Laravel 10.x
+- **Backend**: Laravel 9
 - **Database**: MySQL
 - **API**: RESTful
 - **Authentication**: None (Simple CRUD operations)
@@ -165,14 +165,6 @@ The application includes proper error handling for:
 - Missing required fields
 - Invalid task IDs
 - Invalid completion status
-
-## Contributing
-
-Feel free to submit issues and enhancement requests.
-
-## License
-
-This project is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 
 ---
 
