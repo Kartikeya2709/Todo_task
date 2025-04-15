@@ -27,7 +27,7 @@ erDiagram
 
 ### API Endpoints
 ```mermaid
-graph TD
+graph LR
     A[Client] -->|GET /tasks| B[List Tasks]
     A -->|POST /tasks| C[Create Task]
     A -->|PUT /tasks/{id}| D[Update Task]
