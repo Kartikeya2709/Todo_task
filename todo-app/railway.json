@@ -7,7 +7,7 @@
         "startCommand": "php artisan serve --port=$PORT"
     },
     "deploy": {
-        "startCommand": "php artisan migrate --force",
+        "startCommand": "php artisan migrate --force && php artisan serve --port=$PORT",
         "healthcheckPath": "/",
         "healthcheckTimeout": 100,
         "restartPolicyType": "ON_FAILURE",
