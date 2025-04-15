@@ -34,10 +34,16 @@ graph TD
     D[Update Task]
     E[Delete Task]
     
-    A -->|GET /tasks| B
-    A -->|POST /tasks| C
-    A -->|PUT /tasks/{id}| D
-    A -->|DELETE /tasks/{id}| E
+    A --- B
+    A --- C
+    A --- D
+    A --- E
+    
+    style A fill:#f9f,stroke:#333,stroke-width:2px
+    style B fill:#bbf,stroke:#333,stroke-width:2px
+    style C fill:#bbf,stroke:#333,stroke-width:2px
+    style D fill:#bbf,stroke:#333,stroke-width:2px
+    style E fill:#bbf,stroke:#333,stroke-width:2px
 ```
 
 ## Features
