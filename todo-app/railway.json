@@ -3,11 +3,11 @@
     "build": {
         "builder": "NIXPACKS",
         "buildCommand": "composer install --no-dev",
-        "installCommand": "php artisan key:generate",
-        "startCommand": "php artisan serve --port=$PORT"
+        "installCommand": "php artisan key:generate && chmod +x deploy.sh",
+        "startCommand": "./deploy.sh"
     },
     "deploy": {
-        "startCommand": "php artisan migrate --force && php artisan serve --port=$PORT",
+        "startCommand": "./deploy.sh",
         "healthcheckPath": "/",
         "healthcheckTimeout": 100,
         "restartPolicyType": "ON_FAILURE",
