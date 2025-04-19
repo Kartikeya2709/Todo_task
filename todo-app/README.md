@@ -1,6 +1,7 @@
 # Todo Application
 
 A simple and efficient Todo application built with Laravel, providing a clean and intuitive interface for managing tasks.
+BY KARTIKEYA SHARMA
 
 ## Project Overview
 
